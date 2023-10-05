@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap');
+*{
+    font-family: 'Gabarito', cursive;
+}
+ /* static, relative, absolute and fixed position are used */
+/* static */
+ #logo{
+    position: static;
+}
+/* relative */
+#cha{
+    position: relative;
+    bottom: 50px;
+    left: 200px;
+}
+#com{
+    position: relative;
+    bottom: 85px;
+    left: 300px;
+}
+#mov{
+    position: relative;
+    bottom: 120px;
+    left: 375px;
+}
+#gam{
+    position: relative;
+    bottom: 155px;
+    left: 490px;
+}
+#new{
+    position: relative;
+    bottom: 190px;
+    left: 570px;
+}
+#vi{
+    position: relative;
+    bottom: 225px;
+    left: 640px;
+}
+#sho{
+    position: relative;
+    bottom: 260px;
+    left: 710px;
+}
+#comm{
+    position: relative;
+    bottom: 295px;
+    left: 775px;
+}
+/* absolute */
+#mo{
+    position: absolute;
+    bottom: 667px;
+    left: 885px;
+}
+/* fixed */
+#search{
+    position: fixed;
+    right: 10px;
+    bottom: 690px;
+
+}
+nav{
+    height: 70px;
+    background-color: white;
+}
+
+
